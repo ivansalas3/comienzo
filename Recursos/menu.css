@@ -1,0 +1,75 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+
+{
+	font:14px/1.5 Arial, Helvetica, sans-serif;
+	margin:0;
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+.menu-nv{
+    font:bold 20px  sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 4px;
+    margin-top: 1.8%;
+    width: 90%;
+    margin-right:3%;
+
+}
+
+.menu-nv a {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+    margin: 0 10px auto;
+    line-height: 2;
+    width: 30%;
+}
+.menu-nv li{
+    float: left;
+    text-decoration: none;
+    overflow: hidden;
+
+}
+.menu-nv li a{
+  color:#FF1177;
+  font-family:Monoton;
+}
+
+.menu-nv li a:hover{
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+.menu-nv li a:hover{
+ color: #18cd1e;
+ text-decoration: none;
+}
+
+.menu-nv a.selected {
+    color: #ffffff;
+    background-color: #9eb9cc;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin: 0 5px auto;
+}
+
+/* Making the navigation menu responsive */
+
+.slicknav_menu {
+    display:none;
+}
+
+@media (max-width: 600px) {
+    .menu-nv{
+        display:none;
+    }
+
+    .slicknav_menu {
+        display:block;
+    }
+}

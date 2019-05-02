@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+*{
+	margin:0;
+	padding: 0;
+}
+.nuestros {
+
+  color: #18cd1e;
+  text-align: center;
+font-family: 'Bree Serif', serif;
+}
+.nuestros1 {
+  color: #FF1177;
+  text-align: center;
+ font-family:Monoton;
+}
+.pricing-table .item .nuestros a:hover{
+	color:#2feb00;
+}
+.redes{	
+	margin:10px;
+	border-radius: 80px 80px;
+	width: 10%;
+	height: auto;
+}
+.comple{
+	border:2px solid red;
+	width: 90%;
+	height: 300px;
+	margin-top: 20px;
+}
+.what{
+	display: flex;
+	justify-content: center;
+	width:40%;
+	margin-bottom: -1%;
+	height: auto;
+}
+.contenedor{
+	background-color:rgba(0,0,0,0.5);
+	border-radius: 20px 20px;
+width: 100%;
+max-width: 1500px;
+margin:0 auto;
+overflow: hidden;
+}
+@media screen and (max-width: 800px){
+	.tamara{
+		width: 100%;
+		height: auto;
+		margin: auto;
+	}
+	.logo{
+		width: 100%;
+		height: auto;
+		margin:auto;
+	}
+	.cont-w {
+		width: 100%;
+		height: auto;
+		margin:auto;
+	}
+	.what{
+		width: 100%;
+		height: auto;
+		margin: auto;
+		margin-bottom: -1%;
+	}
+
+.contenedor{
+	height: 100%;
+	margin-bottom: 100px;
+}
+.container{
+	margin-top: 100px;
+	margin-bottom: 10px;
+}
+

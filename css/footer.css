@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Permanent+Marker');
+*{
+	margin:0;
+	padding: 0;
+}
+.pie-pagina{
+	margin-top: 10px;
+background-color:rgba(192,192,192,0.3);
+	border-radius: 20px 20px;
+	width:100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+.redes{	
+	margin:10px;
+	border-radius: 80px 80px;
+	width: 10%;
+	height: auto;
+}
+@media screen and (max-width: 800px){
+	pie-pagina{
+		position:fixed;
+		left: 0;
+		top:200px;
+		z-index: 2000;
+	}
+}
